@@ -6,7 +6,7 @@
 
 body {
     font-family: Montserrat, sans-serif;
-    background: #000 url('../img/MD\ Dark.jpg');
+    background: #000 url('../img/Tree\ MD.jpg');
     background-size: cover;
     background-attachment: fixed;
     color: #F5F5F5;
@@ -93,7 +93,7 @@ header .menu ul li a:hover {
 
 footer {
     margin: 20px 0;
-    background: rgba(255, 255, 255, .2); 
+    background: rgba(255, 255, 255, .5); 
     padding: 20px;
     width: 100%;
     color: #F5F5F5;
@@ -122,7 +122,7 @@ footer .social-networks a:hover {
 
     header .menu {
         width: 100%;
-        background: rgba(255, 255, 255, .2); 
+        background: rgba(255, 255, 255, .5); 
         text-align: center;
         padding: 10px;
     }
