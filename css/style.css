@@ -140,15 +140,3 @@ footer .social-networks a:hover {
         text-align: center;
     }
 }
-
-@media screen and (max-width:320px) {
-    header .menu {
-        font-size: 14px;
-        padding: 10px;
-    }
-
-    footer {
-        font-size: 14px;
-        padding: 10px;
-    }
-}
