@@ -9,7 +9,7 @@ body {
     background: #000 url('../img/Laptop\ Office\ Desk.jpg');
     background-size: cover;
     background-attachment: fixed;
-    color: #F5F5F5;
+    color: #FFF;;
 }
 
 .container {
@@ -62,13 +62,80 @@ header .menu ul li a:hover {
     background: rgba(255, 255, 255, .2);
 }
 
-/* TODO: Reestablecer el cuadro con el nombre */
+.nameProfesion {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nameProfesion .container-text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 50px 0;
+}
+
+.nameProfesion .container-text .text {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+.nameProfesion .container-text .text .name,
+.nameProfesion .container-text .text .profesion {
+    color: #FFF;
+    font-weight: 300;
+    margin: 0;
+}
+
+.nameProfesion .container-text .text .name::selection,
+.nameProfesion .container-text .text .profesion::selection {
+    background: #000;
+}
+
+.nameProfesion .container-text .text .name {
+    margin-bottom: 10px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.nameProfesion .container-text .text .profesion {
+    font-size: 25px;
+    line-height: 25px;
+}
 
 .main {
     background: #F5F5F5;
     color: #000;
     width: 100%;
     padding: 20px;
+}
+
+.main article .container {
+    justify-content: center;
+    overflow: visible;
+}
+
+.main article .container .photo {
+    margin-top: -60px;
+}
+
+.main article .container .photo img {
+    width: 115px;
+    border-radius: 50%;
+    border: 5px solid rgba(223, 193, 193, 0.2);
+}
+
+.main article .container .title {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #6487A7;
+    text-align: center;
 }
 
 .main article .thumb {
@@ -80,51 +147,51 @@ header .menu ul li a:hover {
     vertical-align: top;
 }
 
-/* .main article h2 {
-    margin-bottom: 20px;
-    font-weight: normal;
-    font-size: 32px;
-    text-align: center;
-} */
-
-.main article .container-text {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin: 190px 0;
-    position: absolute;
-}
-
-.main article .container-text .text {
-    border: 2px solid rgba(0, 0, 0, 0.5);
-    border-radius: 3px;
-    display: inline-block;
-    text-align: center;
-    padding: 20px 60px;
-}
-
-.main article .container-text .text h1,
-.main article .container-text .text h2 {
-    color: #000;
-    font-weight: 300;
-    margin: 0;
-}
-
-.main article .container-text .text .name {
-    margin-bottom: 10px;
-    font-size: 50px;
-    line-height: 50px;
-}
-
-.main article .container-text .text .profesion {
-    font-size: 25px;
-    line-height: 25px;
-}
-
 .main article p {
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 27px;
+}
+
+.main .works {
+    background: #F2F2F2;
+    padding: 60px 0;
+}
+
+.main .works .titleprojects {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #323068;
+    text-align: center;
+}
+
+.main .works .container-works {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .works .container-works .work {
+    width: 23%;
+    margin-bottom: 40px;
+}
+
+.main .works .container-works .work .description {
+    text-align: center;
+}
+
+.main .works .container-works .work .description .name {
+    font-weight: 700;
+    color: #3895EA;
+    margin-bottom: 10px;
+}
+
+.main .works .container-works .work .description .category {
+    font-size: 14px;
+    color: #636363;
 }
 
 footer {
