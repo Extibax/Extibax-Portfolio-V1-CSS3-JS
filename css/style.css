@@ -124,7 +124,6 @@ header .menu ul li a:hover {
 }
 
 .main article .container .photo img {
-    width: 115px;
     border-radius: 50%;
     border: 5px solid rgba(223, 193, 193, 0.2);
 }
@@ -215,6 +214,38 @@ footer .social-networks a {
 
 footer .social-networks a:hover {
     text-decoration: underline;
+}
+
+/* ----- ----- MEDIA QUERIES ----- ----- */
+
+@media screen and (max-width: 800px) {
+    header {
+        margin: 5px 0;
+    }
+
+    .nameProfesion .container-text {
+        width: 100%;
+    }
+
+    .nameProfesion .container-text .text {
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+    .nameProfesion .container-text .text .name {
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nameProfesion .container-text .text .profesion {
+        font-size: 15px;
+        margin: 10px;
+    }
+    
+    .main .works .container-works .work {
+        width: 46%;
+    }
 }
 
 @media screen and (max-width: 600px) {
