@@ -1,0 +1,31 @@
+header .logo {
+    padding: 10px;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header .menu ul {
+    list-style: none;
+}
+
+header .menu ul li {
+    display: inline-block;
+}
+
+header .menu ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+header .logo:hover {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, .2);
+}
+
+header .menu ul li a:hover {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, .2);
+}

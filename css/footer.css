@@ -1,0 +1,22 @@
+footer {
+    margin: 20px 0;
+    background: rgba(255, 255, 255, .2); 
+    padding: 20px;
+    width: 100%;
+    color: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+footer .social-networks a {
+    color: #F5F5F5;
+    text-decoration: none;
+    margin-left: 20px;
+    /* margin-right: 20px; */
+}
+
+footer .social-networks a:hover {
+    text-decoration: underline;
+}

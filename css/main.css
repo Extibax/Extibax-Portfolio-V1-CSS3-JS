@@ -1,0 +1,85 @@
+.main {
+    background: #F5F5F5;
+    color: #000;
+    width: 100%;
+    padding: 20px;
+}
+
+.main article .container {
+    justify-content: center;
+    overflow: visible;
+}
+
+.main article .container .photo {
+    margin-top: -60px;
+}
+
+.main article .container .photo img {
+    border-radius: 50%;
+    border: 5px solid rgba(223, 193, 193, 0.2);
+}
+
+.main article .container .title {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #6487A7;
+    text-align: center;
+}
+
+.main article .thumb {
+    margin-bottom: 20px;
+}
+
+.main article .thumb img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.main article p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.main .works {
+    background: #F2F2F2;
+    padding: 60px 0;
+}
+
+.main .works .titleprojects {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #323068;
+    text-align: center;
+}
+
+.main .works .container-works {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .works .container-works .work {
+    width: 23%;
+    margin-bottom: 40px;
+}
+
+.main .works .container-works .work .description {
+    text-align: center;
+}
+
+.main .works .container-works .work .description .name {
+    font-weight: 700;
+    color: #3895EA;
+    margin-bottom: 10px;
+}
+
+.main .works .container-works .work .description .category {
+    font-size: 14px;
+    color: #636363;
+}
