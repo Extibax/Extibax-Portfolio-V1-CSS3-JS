@@ -28,7 +28,7 @@ body {
 
 header {
     width: 100%;
-    margin: 50px 0;
+    margin: 50px 0 0 0 ;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,22 +42,22 @@ header {
         margin: 5px 0;
     }
 
-    .name-profesion .container-text {
+    .name-profession .container-text {
         width: 100%;
     }
 
-    .name-profesion .container-text .text {
+    .name-profession .container-text .text {
         width: 100%;
         padding: 20px 30px;
     }
 
-    .name-profesion .container-text .text .name {
+    .name-profession .container-text .text .name {
         font-size: 20px;
         padding: 0;
         margin: 0;
     }
 
-    .name-profesion .container-text .text .profesion {
+    .name-profession .container-text .text .profesion {
         font-size: 15px;
         margin: 10px;
     }
