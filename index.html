@@ -4,35 +4,40 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Extibax Development</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- No cache start -->
     <meta http-equiv="Expires" content="0">
     <meta http-equiv="Last-Modified" content="0">
     <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <!-- No cache end -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Extibax Development</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/alertifyjs/css/themes/default.css">
+    <link rel="stylesheet" href="js/alertifyjs/css/alertify.css">
 </head>
 
 <body>
     <div class="container">
+
         <header>
             <div class="logo">
-                <a href="#"><img src="img/Logotype&Text.png" alt="Extibax Logotype"></a>
+                <img src="img/LogotypeText.png" alt="Extibax Logotype">
             </div>
             <nav class="menu">
                 <ul>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Works</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li onclick="aboutMe()">About me</li>
+                    <li onclick="works()">Works</li>
+                    <li onclick="contact()">Contact</li>
                 </ul>
             </nav>
         </header>
+
         <section class="name-profession">
             <div class="container-text">
                 <div class="text">
@@ -41,95 +46,132 @@
                 </div>
             </div>
         </section>
+
         <section class="main">
-            <article>
+
+            <div class="about-me">
                 <div class="container">
-                    <div class="photo">
-                        <img src="img/PhotoJuanBedoya.jpg" alt="Juan Sebastian Bedoya Piedrahita - Juan Bedoya" width="115"
-                            height="115">
+                    <div class="image">
+                        <img src="img/JuanBedoya.jpg" alt="Juan Sebastian Bedoya Piedrahita - Juan Bedoya - Extibax">
                     </div>
                     <div class="text">
-                        <h3 class="title">About me</h3>
+                        <h3 class="title" id="aboutMe">About me</h3>
                         <p>
-                            This is <span class="bold">Photoshop's</span> version of Lorem ipsum dolor sit amet
-                            consectetur
-                            adipisicing elit. Alias,
-                            excepturi. <span class="bold">Lorem</span> ipsum dolor sit amet.
+                            ¡Hi!, My name is Juan Bedoya, I'm have 18 years old, I'm a junior passionate programmer,
+                            self-taught and a eternal apprentice, I like the moderns technologies and i'm in the way of
+                            the Back-End developers, More than anything with the PHP language and its Laravel framework.<br><br>
+                            These are the languages & technologies in which at the moment I have a beginner/intermediate level:<br>
+                            <span class="languages-technologies">
+                                    -HTML -CSS -Javascript<br>
+                                    -JQuery<span class="soon">(soon)</span> -PHP<span class="soon">(soon)</span> -Laravel<span class="soon">(soon)</span><br>
+                                    -MySQL <span class="soon">(soon)</span><br>
+                            </span>
+                        </p>
+                        <p>
+                            
+                            
                         </p>
                     </div>
                 </div>
-                <div class="works">
-                    <div class="container">
-                        <h3 class="titleprojects">Works</h3>
-                        <div class="container-works">
-                            <div class="work">
-                                <div class="thumb">
-                                    <img src="img/1.png" alt="">
-                                </div>
-                                <div class="description">
-                                    <p class="name">Lorem Ipsum</p>
-                                    <p class="category">HTML - CSS - PHP</p>
-                                </div>
+            </div>
+
+            <div class="works">
+                <div class="container">
+                    <h3 class="title" id="works">Works</h3>
+                    <div class="container-works">
+                        <!-- Project #1 -->
+                        <div class="work">
+                            <div class="thumb">
+                                <!-- Link #1 -->
+                                <a href="https://github.com/Extibax/Extibax-Development" target="_blank">
+                                    <!-- Image -->
+                                    <img src="img/MyWebThumb.png" alt="Extibax Development Web">
+                                </a>
                             </div>
-                            <div class="work">
-                                <div class="thumb">
-                                    <img src="img/2.png" alt="">
-                                </div>
-                                <div class="description">
-                                    <p class="name">Lorem Ipsum</p>
-                                    <p class="category">HTML - CSS - PHP</p>
-                                </div>
+                            <div class="description">
+                                <p class="name">
+                                    <!-- Link #2 -->
+                                    <!-- Name -->
+                                    <a href="https://github.com/Extibax/Extibax-Development">My Static Personal Web</a>
+                                </p>
+                                <!-- Category -->
+                                <p class="category">HTML - CSS - JS - JQuery</p>
                             </div>
-                            <div class="work">
-                                <div class="thumb">
-                                    <img src="img/3.png" alt="">
-                                </div>
-                                <div class="description">
-                                    <p class="name">Lorem Ipsum</p>
-                                    <p class="category">HTML - CSS - PHP</p>
-                                </div>
+                        </div>
+                        <!-- Project #2 -->
+                        <div class="work">
+                            <div class="thumb">
+                                <!-- Link #1 -->
+                                <a href="https://github.com/Extibax/CustomerManager" target="_blank">
+                                    <!-- Image -->
+                                    <img src="img/CustomerAdministrator.png" alt="Customer Administrator">
+                                </a>
                             </div>
-                            <div class="work">
-                                <div class="thumb">
-                                    <img src="img/4.png" alt="">
-                                </div>
-                                <div class="description">
-                                    <p class="name">Lorem Ipsum</p>
-                                    <p class="category">HTML - CSS - PHP</p>
-                                </div>
+                            <div class="description">
+                                <p class="name">
+                                    <!-- Link #2 -->
+                                    <!-- Name -->
+                                    <a href="https://github.com/Extibax/CustomerManager">Customer Administrator</a>
+                                </p>
+                                <!-- Category -->
+                                <p class="category">Java - SQLite</p>
+                            </div>
+                        </div>
+                        <!-- Project #3 -->
+                        <div class="work">
+                            <div class="thumb">
+                                <!-- Link #1 -->
+                                <a href="https://github.com/Extibax/Front-End" target="_blank">
+                                    <!-- Image -->
+                                    <img src="img/FrontEndThumb.png" alt="Repository Front-End Extibax">
+                                </a>
+                            </div>
+                            <div class="description">
+                                <p class="name">
+                                    <!-- Link #2 -->
+                                    <!-- Name -->
+                                    <a href="https://github.com/Extibax/Front-End">Front-End Repository Practices</a>
+                                </p>
+                                <!-- Category -->
+                                <p class="category">HTML - CSS - JS</p>
+                            </div>
+                        </div>
+                        <!-- Project #4 -->
+                        <div class="work">
+                            <div class="thumb">
+                                <!-- Link #1 -->
+                                <a href="https://github.com/Extibax/Back-End" target="_blank">
+                                    <!-- Image -->
+                                    <img src="img/BackEndThumb.png" alt="Repository Back-End Extibax">
+                                </a>
+                            </div>
+                            <div class="description">
+                                <p class="name">
+                                    <!-- Link #2 -->
+                                    <!-- Name -->
+                                    <a href="https://github.com/Extibax/Back-End">Back-End Repository Practices</a>
+                                </p>
+                                <!-- Category -->
+                                <p class="category">PHP - Laravel - JS - NodeJs</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis sapiente quo quaerat esse alias
-                    dignissimos, unde aspernatur impedit minus, quisquam soluta natus pariatur itaque velit porro
-                    suscipit explicabo ratione voluptatibus.
-                    <br><br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consequatur maiores dolorum
-                    earum, voluptates suscipit molestiae dignissimos, nesciunt id rem optio veniam dolor eos impedit
-                    sed eum vitae adipisci libero?
-                </p>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta laudantium eligendi eius, harum
-                    alias perspiciatis, vitae quam, nulla tenetur quibusdam laborum repellat saepe neque magnam.
-                    Laudantium quos doloremque nobis voluptates.
-                    <br><br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatum possimus non
-                    molestias sequi ad, ut minima expedita reprehenderit cumque quaerat pariatur, voluptas alias
-                    tempore, veniam aliquid quasi ipsam voluptates.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, fuga tenetur rem provident numquam
-                    vel nobis facere, soluta, facilis impedit dicta id exercitationem? Maiores eligendi quod rem,
-                    dolores voluptas ipsa.
-                    <br><br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sequi dolorum quasi vero, itaque
-                    placeat maxime cum molestiae minima quibusdam magnam suscipit fuga beatae praesentium officiis.
-                    Veniam quia repellendus fugit.
-                </p>
-            </article>
+            </div>
+
+            <div class="contact">
+                <div class="container">
+                    <div class="text-container">
+                        <h3 class="title" id="contact">Contact</h3>
+                        <p class="icon-whatsapp whatsapp" id="whatsapp" onclick="copyClipboard()"> +50762545505</p>
+                        <p class="email"><a class="icon-gmail " href="https://www.extibax@gmail.com" target="_blank"> extibax@gmail.com</a></p>
+                        <p class="linkedin"><a class="icon-linkedin" href="https://www.linkedin.com/in/extibax/" target="_blank">
+                                Linkedin</a></p>
+                    </div>
+                </div>
+            </div>
         </section>
+
         <footer>
             <div class="author">
                 <p>
@@ -142,7 +184,12 @@
                 <a class="icon-twitter-squared" href="https://twitter.com/extibax" target="_blank">Twitter</a>
             </div>
         </footer>
+
     </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/alertifyjs/alertify.js"></script>
+
 </body>
 
 </html>

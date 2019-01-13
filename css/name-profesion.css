@@ -1,28 +1,23 @@
 .name-profession {
     width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
 .name-profession .container-text {
-    display: flex;
-    justify-content: center;
-    align-content: center;
     margin: 50px 0;
 }
 
 .name-profession .container-text .text {
+    padding: 20px 60px;
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 3px;
-    display: inline-block;
     text-align: center;
-    padding: 20px 60px;
 }
 
 .name-profession .container-text .text .name,
-.name-profesion .container-text .text .profession {
-    color: #FFF;
+.name-profession .container-text .text .profession {
+    color: #F2F2F2;
     font-weight: 300;
     margin: 0;
 }
@@ -33,9 +28,9 @@
 }
 
 .name-profession .container-text .text .name {
-    margin-bottom: 10px;
     font-size: 50px;
     line-height: 50px;
+    margin-bottom: 10px;
 }
 
 .name-profession .container-text .text .profession {
