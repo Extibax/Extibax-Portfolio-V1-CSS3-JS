@@ -26,6 +26,7 @@ header .menu ul {
 
 header .menu ul li {
     padding: 10px;
+    margin: 0 auto;
     border-radius: 20px;
     cursor: pointer;
     text-decoration: none;

@@ -48,23 +48,44 @@ header {
 
     .name-profession .container-text .text {
         width: 100%;
-        padding: 20px 30px;
+        padding: 10px 30px;
     }
 
     .name-profession .container-text .text .name {
-        font-size: 20px;
+        font-size: 30px;
+        line-height: 30px;
         padding: 0;
         margin: 0;
     }
 
-    .name-profession .container-text .text .profesion {
+    .name-profession .container-text .text .profession {
         font-size: 15px;
+        line-height: 15px;
         margin: 10px;
     }
     
     .main .works .container-works .work {
         width: 46%;
     }
+
+    footer {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    footer .author {
+        padding: 0 auto;
+        text-align: center;
+        display: block;
+    }
+
+    footer .social-networks {
+        padding: 0 auto;
+        text-align: center;
+        line-height: 30px;
+        display: block;
+    }
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -75,7 +96,6 @@ header {
 
     header .menu {
         width: 100%;
-        background: rgba(255, 255, 255, .5); 
         text-align: center;
         padding: 10px;
     }
@@ -84,12 +104,6 @@ header {
         margin-bottom: 20px;
     }
 
-    footer {
-        flex-direction: column;
-    }
+   
 
-    footer .author {
-        margin-bottom: 20px;
-        text-align: center;
-    }
 }

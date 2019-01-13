@@ -6,15 +6,18 @@ footer {
     color: #F5F5F5;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: center;
+}
+
+footer .author {
+    padding: 10px;
 }
 
 footer .social-networks a {
     color: #F5F5F5;
     text-decoration: none;
-    margin-left: 20px;
-    /* margin-right: 20px; */
+    padding: 10px;
 }
 
 footer .social-networks a:hover {
