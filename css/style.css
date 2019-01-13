@@ -38,6 +38,10 @@ header {
 /* ----- ----- MEDIA QUERIES ----- ----- */
 
 @media screen and (max-width: 800px) {
+    .container {
+        width: 95%;
+    }
+
     header {
         margin: 5px 0;
     }

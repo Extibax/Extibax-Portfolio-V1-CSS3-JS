@@ -11,7 +11,11 @@ footer {
 }
 
 footer .author {
-    padding: 10px;
+    display: flex;
+}
+
+footer .author p {
+    line-height: 35px;
 }
 
 footer .social-networks a {

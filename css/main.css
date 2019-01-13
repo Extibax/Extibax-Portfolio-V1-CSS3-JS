@@ -49,6 +49,24 @@
     font-weight: 700;
 }
 
+.languages-technologies::selection,
+.soon::selection {
+    background: #000;
+}
+
+.bold {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.bold a {
+    color: #0077B5;
+}
+
+.bold a:visited {
+    color: #0077B5;
+}
+
 .soon {
     color: #d8230f;
 }
