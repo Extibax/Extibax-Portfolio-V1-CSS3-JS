@@ -104,6 +104,10 @@ header {
         padding: 10px;
     }
 
+    header .menu ul li {
+        margin: 0 auto;
+    }
+
     header .logo {
         margin-bottom: 20px;
     }
