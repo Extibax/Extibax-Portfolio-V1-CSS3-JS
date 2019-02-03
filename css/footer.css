@@ -27,3 +27,11 @@ footer .social-networks a {
 footer .social-networks a:hover {
     text-decoration: underline;
 }
+
+footer .footer_name {
+    
+}
+
+footer .footeR_date {
+    margin-left: 5px;
+}
