@@ -15,6 +15,7 @@ body {
     background-attachment: fixed;/* 
     background-repeat: no-repeat;
     background-size: cover; */
+    background-size: cover;
 }
 
 .container {
@@ -36,6 +37,12 @@ header {
 }
 
 /* ----- ----- MEDIA QUERIES ----- ----- */
+
+@media screen and (max-width: 975px) {
+    footer .author {
+        flex-direction: column;
+    }
+}
 
 @media screen and (max-width: 800px) {
     .container {
@@ -87,7 +94,7 @@ header {
         padding: 0 auto;
         text-align: center;
         line-height: 30px;
-        display: block;
+        /* display: block; */
     }
     
 }
@@ -111,7 +118,4 @@ header {
     header .logo {
         margin-bottom: 20px;
     }
-
-   
-
 }
