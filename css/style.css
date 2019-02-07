@@ -12,9 +12,8 @@
 body {
     font-family: Montserrat, sans-serif;
     background: #000 url('../img/Office.jpg') top right no-repeat;
-    background-attachment: fixed;/* 
-    background-repeat: no-repeat;
-    background-size: cover; */
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
     background-size: cover;
 }
 
@@ -39,6 +38,10 @@ header {
 /* ----- ----- MEDIA QUERIES ----- ----- */
 
 @media screen and (max-width: 975px) {
+    body {
+        background-size: auto;
+    }
+
     footer .author {
         flex-direction: column;
     }
