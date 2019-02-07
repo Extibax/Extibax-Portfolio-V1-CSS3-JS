@@ -37,11 +37,13 @@ header {
 
 /* ----- ----- MEDIA QUERIES ----- ----- */
 
-@media screen and (max-width: 975px) {
+@media screen and (min-height: 899px ), screen and (min-width: 1919px) {
     body {
-        background-size: auto;
+        background-size: cover;
     }
+}
 
+@media screen and (max-width: 975px) {
     footer .author {
         flex-direction: column;
     }
