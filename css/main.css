@@ -151,12 +151,8 @@
     font-size: 18px;
 }
 
-.contact .container .text-container .whatsapp {
-    color: #0DC242;
-    cursor: pointer;
-}
-
 .contact .container .text-container .email a {
+    cursor: pointer;
     text-decoration: none;
     color: #AC3B2E;
 }

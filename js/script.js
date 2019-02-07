@@ -24,7 +24,7 @@ function contact() {
 }
 
 function copyClipboard() {
-    var whatsapp = "+50762545505";
-    navigator.clipboard.writeText(whatsapp);
-    alertify.success('¡Whatsapp has been copied!');
+    var email = "extibax@gmail.com";
+    navigator.clipboard.writeText(email);
+    alertify.success('¡The email has been copied!');
 }
