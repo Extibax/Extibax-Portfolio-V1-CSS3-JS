@@ -13,8 +13,7 @@ body {
     font-family: Montserrat, sans-serif;
     background: #000 url('../img/Office.jpg') top right no-repeat;
     background-attachment: fixed;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    background-size: cover;
 }
 
 .container {
