@@ -44,12 +44,14 @@
     font-weight: 300;
 }
 
-.languages-technologies {
+.knowledge_list {
     color: #d39f06bd;
     font-weight: 700;
+    text-align: center;
+    justify-content: center;
 }
 
-.languages-technologies::selection,
+.knowledge_list::selection,
 .soon::selection {
     background: #000;
 }
