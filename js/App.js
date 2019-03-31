@@ -37,7 +37,7 @@ $(document).ready(function () {
         }
 
         let kn_list = extibax.bio.split(':', 2), kn_clear = kn_list[1].split('\r\n'), 
-        knowledges = kn_clear[1].split(','), template = '', index = 0;
+        knowledges = kn_clear[1].split(','), template = '';
 
         knowledges.forEach(function (knowledge) {
             template +=`<span>${$.trim(knowledge)}</span><br>`;
