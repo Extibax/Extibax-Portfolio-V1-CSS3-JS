@@ -3,7 +3,7 @@ This is the Extibax Portfolio
 
 ## Description
 
-Este portafolio muestra quien es Juan Bedoya(Extibax)
+Este portafolio muestra quien es Juan Bedoya(Extibax) (In development)
 
 ### Lenguages, Technologies & Libraries Used
 
